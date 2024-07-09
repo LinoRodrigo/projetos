@@ -1,0 +1,102 @@
+
+
+:root {
+    --cor0: rgb(161, 148, 148);
+    --cor1: white;
+    --cor2: black;
+    --cor3: rgb(114, 113, 113);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-color: var(--cor3);
+}
+
+header > h1 {
+    text-align: center;
+    padding: 20px;
+    color: var(--cor2);
+}
+
+i#burguer {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+menu {
+    display: block;
+}
+menu > ul{
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    color: var(--cor1);
+    border-top: 2px solid black;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+a.pao {
+    background-color: rgb(236, 160, 19);
+}
+a.tomate {
+    background-color: rgb(196, 26, 26);
+}
+a.cheddar {
+    background-color: rgb(240, 227, 43);
+}
+a.carne {
+    background-color: rgb(97, 21, 21);
+}
+a.alface {
+    background-color: green;
+}
+
+
+
+article.container {
+    background-color: var(--cor1);
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+p#texto {
+    display: block;
+}
+
+.container > h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container > p {
+    margin-bottom: 20px;
+}

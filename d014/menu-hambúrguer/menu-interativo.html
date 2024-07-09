@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu-interativo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>menu hambúrguer</title>
+</head>
+<body>
+    <header>
+        <h1>titulo qualquer</h1>
+        <i id="burguer" class='bx bx-list-ul' onclick="clicen()"></i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#" class="pao">pão</a></li>
+                <li><a href="#" class="tomate">tomate</a></li>
+                <li><a href="#" class="cheddar">cheddar</a></li>
+                <li><a href="#" class="carne">carne</a></li>
+                <li><a href="#" class="alface">alface</a></li>
+                <li><a href="#" class="pao">pão</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article class="container">
+            <h1 onclick="texta()">testando a responsividade</h1>
+            <p id="texto">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur iure accusamus, est porro a incidunt ut quibusdam consequuntur cumque nemo ipsum maxime pariatur rem facilis laudantium reiciendis fuga illo modi!
+            </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repudiandae delectus, accusantium alias, odit consequuntur dolore cupiditate quis asperiores aliquam quae sed eaque culpa molestiae error? Nobis corporis eaque necessitatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vitae eaque fugiat ab ad atque sit repellat iure. Fugit iusto vitae nobis quisquam ex alias deserunt exercitationem voluptatem minus ad!.   
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi nihil nesciunt eum laborum nam necessitatibus exercitationem aliquid in, velit pariatur commodi debitis temporibus, reprehenderit neque doloremque fugit minus aut. Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reprehenderit quisquam debitis fugit illo eaque sed itaque voluptatem sunt quis tempore consequuntur qui assumenda, accusantium incidunt labore doloribus. Porro, autem.
+            </p>
+            
+        </article>
+    </main>
+    <script>
+        function clicen() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function texta() {
+            if (texto.style.display == 'block') {
+                texto.style.display = 'none'
+            } else {
+                texto.style.display = 'block'
+            }
+        }
+
+    </script>
+
+</body>
+</html>
